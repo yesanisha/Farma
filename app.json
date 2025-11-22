@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "farma",
+    "slug": "farma",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "scheme": "farma",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.farmaapp.ios",
+      "usesAppleSignIn": true,
+      "googleServicesFile": "./GoogleService-Info.plist"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.farmaapp.android",
+      "googleServicesFile": "./google-services.json"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font",
+      "expo-web-browser",
+      "expo-apple-authentication",
+      "@react-native-google-signin/google-signin"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "5e08d1b4-2e3d-49f9-9c33-727ce9ba62a7"
+      }
+    }
+  }
+}

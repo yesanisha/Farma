@@ -1,0 +1,24 @@
+{
+  "students": [
+    {
+      "student_id": "ST1234",
+      "name": "ans",
+      "email": "asmbd@gmail.com"
+    }
+  ],
+  "courses": [
+    {
+      "course_id": "CS1234",
+      "title": "sjdcb",
+      "credits": 1
+    }
+  ],
+  "enrollments": [
+    {
+      "student_id": "ST1234",
+      "course_id": "CS1234",
+      "grade": null
+    }
+  ],
+  "saved_at": "2025-08-22T12:06:13"
+}
